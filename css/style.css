@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap);
+*,body,html {
+  font-family: Montserrat,sans-serif;
+  margin: 0;
+  padding: 0
+}
+.wrapper {
+    background-image: url("../images/bg.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+}
+.wrapper .container {
+  display: grid;
+  height: 100%;
+  place-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.wrapper .opacity {
+  background-color: rgba(0,0,0,.75);
+  display: grid;
+  height: 100%;
+  place-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.content{
+  text-align: center;
+}
+.content .welcome {
+  font-size: 23px;
+  margin-bottom: 10px;
+}
+.content .name {
+  color: #FFC93C;
+  font-weight: 700;
+}
+.content .title {
+  font-family: 'Orelega One', cursive;
+  font-size: 45px;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+  margin-top: 10px
+}
+.content .socialMedia {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-left: -10px;
+  margin-right: -10px;
+  padding-left: 0;
+  width: 100%;
+}
+.content .socialMedia li{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.content .socialMedia li a:hover img {
+  filter: opacity(50%)
+}
