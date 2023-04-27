@@ -63,5 +63,5 @@
   margin-right: 10px;
 }
 .content .socialMedia li a:hover img {
-  filter: opacity(50%)
+  filter: opacity(40%);
 }
